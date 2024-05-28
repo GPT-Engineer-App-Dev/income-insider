@@ -2,7 +2,7 @@ import { Box, Flex, Link, Text, useColorModeValue } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    <Box bg={useColorModeValue("gray.100", "gray.900")} color={useColorModeValue("gray.700", "gray.200")}>
+    <Box bg="#fff1e5" color={useColorModeValue("gray.700", "gray.200")}>
       <Flex h={16} alignItems={"center"} justifyContent={"space-between"} px={4}>
         <Text>© 2023 Financial Times</Text>
         <Flex>

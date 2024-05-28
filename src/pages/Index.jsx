@@ -2,7 +2,7 @@ import { Container, Text, VStack, Box, Heading, Image, SimpleGrid } from "@chakr
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="#fff1e5">
       <VStack spacing={4} align="stretch">
         <Box>
           <Heading as="h1" size="xl">Latest News</Heading>
